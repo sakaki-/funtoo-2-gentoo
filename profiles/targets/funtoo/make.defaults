@@ -1,0 +1,68 @@
+# It would be nicer to have this as a directory structure;
+# but that doesn't seem to work properly for make.defaults
+
+#############################################################
+# Additional USE flags from Funtoo's core flavo(u)r
+#############################################################
+USE="unicode nptl modules"							#core kernel and userland
+USE="$USE acl pam ssl crypt cracklib xattr" 					#core security
+USE="$USE nls iconv xml pcre" 							#core subsystems
+USE="$USE zlib bzip2"								#core compression
+USE="$USE berkdb gdbm"								#core databases
+USE="$USE readline ncurses"							#core gui/interactivity frameworks
+USE="$USE mudflap openmp python cxx"						#core languages
+USE="$USE ipv6 tcpd resolvconf icu"						#core networking 
+
+#############################################################
+# Additional USE flags from Funtoo's workstation flavo(u)r
+#############################################################
+USE="$USE opengl"
+USE="$USE nsplugin" ## enable Java plugin. http://bugs.funtoo.org/browse/FL-1136
+
+#############################################################
+# Following from Funtoo's audio mix-in
+#############################################################
+USE="$USE alsa"
+ALSA_CARDS="ali5451 als4000 atiixp atiixp-modem bt87x ca0106 cmipci emu10k1x ens1370 ens1371 es1938 es1968 fm801 hda-intel ice1724 intel8x0 intel8x0m maestro3 trident usb-audio via82xx via82xx-modem ymfpci"
+ALSA_PCM_PLUGINS="adpcm alaw asym copy dmix dshare dsnoop empty extplug file hooks iec958 ioplug ladspa lfloat linear meter mmap_emul mulaw multi null plug rate route share shm softvol"
+
+#############################################################
+# Following from Funtoo's console-extras mix-in
+#############################################################
+USE="$USE pppd gpm"
+
+#############################################################
+# Following from Funtoo's dvd mix-in
+#############################################################
+USE="$USE cdr dvd dvdr dvdread"
+
+#############################################################
+# Following from Funtoo's gnome mix-in
+#############################################################
+USE="$USE colord eds evo gnome gnome-keyring gnome-online-accounts gstreamer gtk gtk3 gtkstyle introspection libnotify nautilus policykit pulseaudio tracker"
+
+#############################################################
+# Following from Funtoo's media mix-in
+#############################################################
+USE="$USE flac lame mad mp3 mpeg ogg vorbis wavpack win32codecs"				 	#core media features
+USE="$USE gif jpeg png tiff truetype"								#core graphics
+USE="$USE apng"					#FL-413 Firefox requres package.use change
+
+#############################################################
+# Following from Funtoo's print mix-in
+#############################################################
+USE="$USE cups"
+
+#############################################################
+# Following from Funtoo's X mix-in
+#############################################################
+USE="$USE X udev dbus"							# desktop gui frameworks
+USE="$USE dri"		                             			# desktop hardware support
+
+#############################################################
+# Remove some troublesome Gentoo USE flags
+#############################################################
+USE="$USE -consolekit -ldap"
+
+# Finally, set a flag variable (for test / validation purposes)
+CUSTOM_PROFILE="yes"

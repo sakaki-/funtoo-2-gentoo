@@ -1,0 +1,25 @@
+#############################################################
+# Additional flags required for clean Gentoo build
+#############################################################
+
+# creates circular dependency if not unset
+# (qt4 is in Gentoo's desktop default USE flag set, but
+# not Funtoo's)
+dev-util/cmake -qt4
+
+# pycurl trys to build curl with wrong flags:
+dev-python/pycurl -curl_ssl_gnutls -curl_ssl_nss curl_ssl_openssl -gnutls nss
+
+# guile requires this
+dev-libs/boehm-gc threads
+
+# can't use openssl with bindist flag
+# if you compile locally, you can override this
+net-voip/telepathy-gabble gnutls
+
+# needed for proper network support in GNOME
+net-misc/networkmanager wext dhclient -dhcpcd
+
+# prevent whinge on boot-up
+app-admin/syslog-ng json
+

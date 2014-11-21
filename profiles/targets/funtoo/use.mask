@@ -1,0 +1,3 @@
+# force this off globally, as some packages pulled in from the
+# gentoo repo can otherwise end up setting it
+systemd

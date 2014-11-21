@@ -1,0 +1,7 @@
+#############################################################
+# Following from Funtoo's workstation flavo(u)r
+#############################################################
+
+# FL-1700: enable amdcccle:
+x11-drivers/ati-drivers qt4
+

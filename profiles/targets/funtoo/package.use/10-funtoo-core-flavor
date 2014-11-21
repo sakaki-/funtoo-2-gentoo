@@ -1,0 +1,14 @@
+#############################################################
+# Following from Funtoo's core flavo(u)r
+#############################################################
+
+#FL-1498: enable gtk USE flag for gnash for clean emerge if non-desktop profile used
+www-plugins/gnash gtk
+
+#FL-1479
+net-libs/webkit-gtk -geoloc
+
+#FL-848
+net-fs/samba -acl
+net-fs/cifs-utils -acl
+
