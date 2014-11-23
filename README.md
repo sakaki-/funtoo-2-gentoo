@@ -40,7 +40,7 @@ The live-USB image may be downloaded from the link below (or via `wget`, see fol
 
 Variant | Image | Digital Signature
 :--- | ---: | ---:
-Gentoo, GNOME 3.14.1, OpenRC live-USB (1GB) | [genome.img.zx](https://github.com/sakaki-/gentoo-2-funtoo/releases/download/0.95.0/genome.img.xz) | [genome.img.zx.asc](https://github.com/sakaki-/gentoo-2-funtoo/releases/download/0.95.0/genome.img.xz.asc)
+Gentoo, GNOME 3.14.1, OpenRC live-USB (1GB) | [genome.img.zx](https://github.com/sakaki-/funtoo-2-gentoo/releases/download/0.95.0/genome.img.zx) | [genome.img.zx.asc](https://github.com/sakaki-/funtoo-2-gentoo/releases/download/0.95.0/genome.img.zx.asc)
 
 > Please read the instructions below before proceeding. Also please note that this image provided 'as is' and without warranty. The system has been compiled using only generic 64-bit flags; also, the `bindist` USE flag has been set. The kernel version is `3.17.3-gentoo`.
 
