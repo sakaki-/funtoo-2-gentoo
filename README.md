@@ -8,7 +8,7 @@ This project lets you use Dantrell B.'s [funtoo-gnome overlay](https://github.co
 
 <img src="https://github.com/sakaki-/resources/blob/master/funtoo-2-gentoo/images/Gentoo_GNOME_3.14.1_OpenRC.jpg" alt="screenshot of GNOME 3.14.1 on Gentoo, running OpenRC" width="300px" align="right"/>
 
-Dantrell's overlay is an officially supported component of the [Funtoo](http://www.funtoo.org) distribution (a [Gentoo](http://www.gentoo.org) spin-off by Gentoo's original chief architect, Daniel Robbins). It provides around 350 modified ebuilds, which patch the GNOME system (and a number of its key dependencies, such as NetworkManager), so that it can run under OpenRC and Consolekit. The user experience (modulo any hidden bugs!) is essentially identical to the 'stock' system.
+Dantrell's overlay is an officially supported component of the [Funtoo](http://www.funtoo.org) distribution (a [Gentoo](http://www.gentoo.org) spin-off by Gentoo's original chief architect, Daniel Robbins). It provides around 350 modified ebuilds, which patch the GNOME system (and a number of its key dependencies), so that it can run under OpenRC and Consolekit. The user experience (modulo any hidden bugs!) is essentially identical to the 'stock' system.
 
 Sounds good? Well, until now, this overlay could not be used directly by Gentoo users, due to differences between Funtoo and Gentoo (modular profile USE flags, masked packages, missing ebuilds etc.) And that's exactly where this project, `funtoo-2-gentoo`, comes in - it acts as a **shim**, provides a new profile (`default/linux/amd64/13.0/desktop/gnome/funtoo`), and sorts all this unpleasantness out for you.
 
