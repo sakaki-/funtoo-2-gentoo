@@ -1,2 +1,4 @@
 # stay on old version for now, FL-1792
 >dev-libs/liblouis-2.5.3
+# automake problems with net-im/telepathy-mission-control-5.16.3-r1
+>=sys-devel/automake-1.14
