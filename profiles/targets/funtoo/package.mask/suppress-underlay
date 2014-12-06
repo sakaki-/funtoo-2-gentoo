@@ -168,7 +168,7 @@
 >sys-apps/baobab-3.14.1:0
 >sys-libs/gdbm-1.11:0
 >sys-libs/libosinfo-0.2.11:0
->sys-power/upower-20141008:0
+>sys-power/upower-0.99.1:0
 >www-client/epiphany-3.14.1:0
 >x11-libs/cairo-1.12.16-r4:0
 >x11-libs/gdk-pixbuf-2.31.1:2
