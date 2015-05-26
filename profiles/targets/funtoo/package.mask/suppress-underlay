@@ -54,7 +54,8 @@
 >dev-python/pygobject-3.14.0:3
 >dev-util/anjuta-3.14.1:0
 >dev-util/devhelp-3.14.0:0
->dev-util/gdbus-codegen-2.42.0:0
+# temporarily allow from underlay to fix block
+#>dev-util/gdbus-codegen-2.42.0:0
 >dev-util/gnome-devel-docs-3.14.4:0
 >dev-util/gtk-builder-convert-2.24.27:0
 >dev-vcs/gitg-3.14.1:0
