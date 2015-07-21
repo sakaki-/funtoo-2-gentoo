@@ -2,6 +2,10 @@
 
 Run GNOME-3.14 under OpenRC in Gentoo with this funtoo-2-gentoo shim (includes bonus live-USB!)
 
+> **Great news** - Dantrell B. is now [making his patchset directly available](https://github.com/dantrell/gentoo-project-gnome-without-systemd) for Gentoo users. As such, the 'shim' provided by this project is no longer necessary, which is a good thing!
+>
+> Many thanks to everyone who has used this project and provided feedback! I will leave **funtoo-2-gentoo** up on GitHub for historical interest, but please note I am no longer actively developing it. Users should now migrate to use Dantrell B.'s overlays directly. Please see my Gentoo wiki page [here](https://wiki.gentoo.org/wiki/GNOME/GNOME_Without_systemd) for more information.
+
 ## Description
 
 This project lets you use Dantrell B.'s [funtoo-gnome overlay](https://github.com/funtoo/funtoo-gnome-overlay) within Gentoo, and thereby run the popular [GNOME 3.14](https://wiki.gentoo.org/wiki/GNOME#GNOME_3) desktop environment under [OpenRC](https://wiki.gentoo.org/wiki/OpenRC), rather than [systemd](https://wiki.gentoo.org/wiki/Systemd) ^-^
