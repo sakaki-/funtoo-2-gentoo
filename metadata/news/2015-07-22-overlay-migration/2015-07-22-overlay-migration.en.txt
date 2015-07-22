@@ -1,0 +1,29 @@
+Title: Overlay migration (important: please read)
+Author: sakaki <sakaki@deciban.com>
+Content-Type: text/plain
+Posted: 2015-07-22
+Revision: 1
+News-Item-Format: 1.0
+
+Good news! Dantrell B., the GNOME patchset's primary author, is now making
+his work directly available for Gentoo users. As such, the 'shim'
+functionality provided by this funtoo-2-gentoo overlay is no longer
+necessary, and users should migrate to use Dantrell's overlays as soon as
+possible.
+
+Dantrell's (top level) page is at:
+
+https://github.com/dantrell/gentoo-project-gnome-without-systemd
+
+and I have put together a short guide on the Gentoo Wiki about getting
+his stuff up and running, at:
+
+https://wiki.gentoo.org/wiki/GNOME/GNOME_Without_systemd
+
+Many thanks to everyone who has used this project and provided feedback!
+Please note that while I will leave funtoo-2-gentoo up on GitHub for
+historical interest, as of now I am no longer actively developing it.
+
+Any questions, feel free to email me!
+
+sakaki <sakaki@deciban.com>
